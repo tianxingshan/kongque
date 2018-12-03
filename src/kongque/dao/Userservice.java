@@ -4,4 +4,6 @@ public interface Userservice {
 
 	
 	void insert();
+	
+	void update();
 }
