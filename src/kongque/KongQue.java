@@ -1,5 +1,7 @@
 package kongque;
 
+import java.util.Date;
+
 public class KongQue {
 	
 	private int id;
@@ -7,6 +9,26 @@ public class KongQue {
     private String name;
     
     private String sex;
+    
+    private Date date;
+    
+    private int age;
+    
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
 
 	public int getId() {
 		return id;
